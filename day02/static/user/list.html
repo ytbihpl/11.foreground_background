@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            margin: 0 auto;
+            width: 1000px;
+        }
+        
+        .btn1 {
+            width: 80px;
+            height: 30px;
+            background-color: rgba(0, 76, 255, 0.685);
+            margin-bottom: 10px;
+            border: 0;
+            border-radius: 5px;
+            color: #fff;
+        }
+        
+        .btn2,
+        .btn3 {
+            background-color: red;
+            border: 0;
+            border-radius: 5px;
+            color: #fff;
+            font-size: 12px;
+        }
+        
+        .btn3 {
+            background-color: green;
+        }
+        
+        table {
+            border-collapse: collapse;
+        }
+        
+        th {
+            background-color: #f1f1f1;
+        }
+        
+        table,
+        tr,
+        th,
+        td {
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <button class="btn1">添加用户名</button>
+        <table width="1000" cellpadding="5" cellspacing="0" align="center">
+            <thead>
+                <tr>
+                    <th>用户</th>
+                    <th>年龄</th>
+                    <th>爱好</th>
+                    <th>邮箱</th>
+                    <th>操作</th>
+                </tr>
+
+            </thead>
+            <tbody>
+                <tr>
+                    <td>张三</td>
+                    <td>20</td>
+                    <td>抽烟喝酒烫头</td>
+                    <td>zhangsan@itcast.cn</td>
+                    <td>
+                        <button class="btn2">删除</button>
+                        <button class="btn3">修改</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+</body>
+
+</html>

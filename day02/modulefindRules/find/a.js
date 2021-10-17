@@ -1,0 +1,1 @@
+console.log('find文件夹下面的a.js被执行');
